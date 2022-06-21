@@ -1,4 +1,4 @@
-//(L8) Function /(Q11):- decimal to binary conversion
+//(L9) Function /(Q11):- decimal to binary conversion
 #include<iostream>
 using namespace std;
 int decimal_to_binary(int n);// here we declare the function so we can write 

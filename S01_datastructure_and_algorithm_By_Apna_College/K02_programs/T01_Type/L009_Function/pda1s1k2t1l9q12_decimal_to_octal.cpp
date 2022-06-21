@@ -1,4 +1,4 @@
-//(L8) Function /(Q12):- decimal to octal conversion
+//(L9) Function /(Q12):- decimal to octal conversion
 #include<iostream>
 using namespace std;
 int decimal_to_octal(int n);// here we declare the function so we can write 

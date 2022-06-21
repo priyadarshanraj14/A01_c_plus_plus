@@ -1,4 +1,4 @@
-//(L8) Function /(Q14):- add two binary number
+//(L9) Function /(Q14):- add two binary number
 // eg:-  10101         1+1=2 so 2-2=0 and carry=1
 //    +  11011          1+1+1=3 s0 3-2=1 and carry =1
 //      110000
