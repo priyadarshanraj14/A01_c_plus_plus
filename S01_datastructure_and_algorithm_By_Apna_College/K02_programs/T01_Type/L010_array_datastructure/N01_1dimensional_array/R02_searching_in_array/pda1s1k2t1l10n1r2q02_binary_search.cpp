@@ -8,15 +8,16 @@ int binary_search (int hi[],int n, int key);
 int main()
 {
     int n;
+    cout<<"how many number you will give=";
     cin>>n;
-    cout<<"must enter the value in ascending order";
+    cout<<"must enter the value in ascending order\n";
     int arr[n];
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];
     }
     int key;
-    cout<<"enter your key";
+    cout<<"enter your key=";
     cin>>key;
     cout<<binary_search(arr,n,key);
     return 0;
