@@ -44,3 +44,4 @@ int binary_search (int hi[],int n, int key)
     }
     return -1;
 }
+//time complexity = o(log n base 2)

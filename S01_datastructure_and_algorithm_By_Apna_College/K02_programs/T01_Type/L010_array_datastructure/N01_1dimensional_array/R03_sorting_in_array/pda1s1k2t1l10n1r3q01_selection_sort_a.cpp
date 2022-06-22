@@ -1,6 +1,6 @@
 //(L10)array data structure // (N1) 1_dimensional_array // (R3) sorting in array
 //(Q1):- arrange the element of array in ascending order ?
-//(seletion sort) :-
+//(method 1) :-seletion sort
 #include<iostream>
 using namespace std;
 int main()
@@ -32,3 +32,7 @@ int main()
     }
     return 0;
 }
+//time complexity= o(n^2) this is worst case time complexity
+//O:- worst case time complexity
+//big omega sign :- best case time complexity.
+// big theta sign :- average case time complexity.
