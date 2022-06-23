@@ -1,6 +1,6 @@
 //(L10)array data structure / (N1) 1_dimensional_array / (R5) subarray
-//challanges /(Q3):- find the subarray in an array which has maximum sum ?
-//(method 2) optimized approach :- cumulative sum approach
+//challanges /(Q4):- find the subarray in an array which has maximum sum ?
+//(method 3) optimized approach :- kadanes algorithm 
 #include<iostream>
 #include<climits>
 using namespace std ;
@@ -17,22 +17,17 @@ int main()
     }
     cout<<"maximum subarray sum\n";
     int maxsum=INT_MIN;
-    int currsum [n+1];
-    currsum[0]=0;
+    int currentsum=0;
     for(int i=0;i<n;i++)
     {
-        currsum[i+1]=currsum[i]+arr[i];
-    }
-    for(int i=1;i<=n;i++)
-    {
-        int sum=0;
-        for(int j=0;j<i;j++)
+        currentsum+=arr[i];
+        maxsum=max(maxsum,currentsum);
+        if(currentsum<0)
         {
-            sum=currsum[i]-currsum[j];
-            maxsum=max(maxsum,sum);
+            currentsum=0;
         }
     }
     cout<<maxsum;
     return 0;
 }
-//time complexity=O(n^2).
+// time complexity =O(n)
