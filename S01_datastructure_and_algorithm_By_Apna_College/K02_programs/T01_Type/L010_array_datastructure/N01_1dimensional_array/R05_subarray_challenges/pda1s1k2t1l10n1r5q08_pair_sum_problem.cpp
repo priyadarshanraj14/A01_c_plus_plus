@@ -10,7 +10,7 @@ void pairsum (int arr[], int n, int k);
 int main()
 {
     int n;
-    cout<<"hoe many number you will give=";
+    cout<<"how many number you will give=";
     cin>>n;
     int arr[n];
     cout<<"must enter your number here in ascending order\n";
