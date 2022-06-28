@@ -13,7 +13,6 @@ int main()
     cout<<"how many number you will give=";
     cin>>n;
     int arr[n];
-    //cout<<"must enter your number here in ascending order\n";
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];
