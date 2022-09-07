@@ -1,5 +1,5 @@
 //(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
-//(Q1):-(All subarray sum). Given an array a[] of size n, output sum of each 
+//(Q2):-(All subarray sum). Given an array a[] of size n, output sum of each 
 //subarray of the given array.
 #include<iostream>
 using namespace std;
