@@ -1,5 +1,5 @@
+//(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
 /*
-(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
 (Q3):-(longest aithmatic subarray) saraswati has an array of n non-negative integers.  
 the ith integer of the array is Ai.she wants to choose a contiguous airthmatic 
 subarray from her array that has the maximum length.please help her to determine 
@@ -9,7 +9,7 @@ the length of the longest contiguous airthmatic subarray.
 
 Input :- the first line of the input gives the number of test cases T.T test cases
 follow. each test cases begins with a line containing the integer N . the second
-line contains N integer. the ith integer is Ai.
+line contains N integers. the ith integer is Ai.
 
 Output :- for each test case output one line containing case # X:Y, where x is the
 test case number (starting from 1) and y is the length of the longest contiguous
@@ -26,6 +26,7 @@ Test set 2
 2<=N<=2*10^5 for at most 10 test cases.
 for the remaining cases 2<=N<=2000
 */
+
 /* 
 solution :- airthmatic array means differences between consecutive integers
 are equal. eg :- {9,7,5,3}
@@ -34,6 +35,7 @@ for N = 2000 we have 2000^2 operation i.e 4*10^6 which is less than 2*10^9, than
 our code will run under 20 second i.e (2*10^9 operation)
 1GB= 1024 MB, 1MB=1024KB, 1KB=1024 Byte , (1 byte = 8 bit)
 */
+//code :-
 #include<iostream>
 using namespace std;
 int main()
@@ -41,7 +43,7 @@ int main()
     int n;
     cout<<"how many number you will give=";
     cin>>n;
-    cout<<"enter your non-negative integer here\n";
+    cout<<"enter your number here (only non-negative integer)\n";
     int a[n];
     for(int i=0; i<n; i++)
     {
