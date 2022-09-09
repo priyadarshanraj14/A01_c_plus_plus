@@ -32,6 +32,7 @@ are equal. eg :- {9,7,5,3}
 1 second = 10^8 operation approx. let time complexity of our code is O(N^2) than
 for N = 2000 we have 2000^2 operation i.e 4*10^6 which is less than 2*10^9, than
 our code will run under 20 second i.e (2*10^9 operation)
+1GB= 1024 MB, 1MB=1024KB, 1KB=1024 Byte , (1 byte = 8 bit)
 */
 #include<iostream>
 using namespace std;
@@ -65,3 +66,7 @@ int main()
     cout<<"length of longest airthmatic subarray="<<ans<<endl;
     return 0;
 }
+
+/*  things written in between these two symbol 'slash star' and 'star slash'  
+ is acted as comment, comment have nothing to do with the code.
+*/
