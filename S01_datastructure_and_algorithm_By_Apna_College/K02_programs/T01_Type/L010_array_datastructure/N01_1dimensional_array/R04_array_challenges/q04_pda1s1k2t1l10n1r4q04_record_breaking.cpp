@@ -43,7 +43,7 @@ int main()
     cin >> n;
     int a[n + 1];
     a[n] = -1;
-    cout << "enter your number here (only integer value)\n";
+    cout << "enter your number here (only +ve integer value)\n";
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
