@@ -12,10 +12,10 @@ int main()
     arrange(arr,5,k);
     for(int i=0;i<5;i++)
     {
-        cout<<arr[i]<<" "; // 10 20 30 40 50 
+        cout<<arr[i]<<" "; //output= 10 20 30 40 50 
         
     }
-    cout<<endl<<k; // 10 (no change)
+    cout<<endl<<k; //output= 10 (no change in k value)
     return 0;
 }
 
