@@ -1,6 +1,7 @@
 //(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
 /*
-(Q3):-(longest aithmatic subarray) saraswati has an array of n non-negative integers.  
+(CP3)Question:-(longest aithmatic subarray) 
+saraswati has an array of n non-negative integers.  
 the ith integer of the array is Ai.she wants to choose a contiguous airthmatic 
 subarray from her array that has the maximum length.please help her to determine 
 the length of the longest contiguous airthmatic subarray.

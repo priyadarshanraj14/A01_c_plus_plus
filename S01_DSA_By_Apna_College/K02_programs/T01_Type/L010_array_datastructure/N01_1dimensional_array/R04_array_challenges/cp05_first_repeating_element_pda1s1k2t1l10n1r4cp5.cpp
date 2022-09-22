@@ -1,12 +1,13 @@
 //(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
 /*
-(Q5) :- (first repeating element) given an array[] of size N . the task is to 
+(CP5)Question:- (first repeating element) 
+given an array[] of size N . the task is to 
 find the index of first repeating element in the array of integers i.e 
 an element that occurs more than once and whose index of first occurance is 
 smallest. (question asked in amazon, oracle)
 
 constraint :-
-1<=N<=10^4 ,   0<=Ai<=10^6
+1<=N<=10^4 ,   0<=Ai<=10^4
 
 example :-
 input
@@ -62,3 +63,4 @@ int main ()
     }
     return 0;
 }
+// note :-(me) do not declare size of array more than 10^5, otherwise program end.

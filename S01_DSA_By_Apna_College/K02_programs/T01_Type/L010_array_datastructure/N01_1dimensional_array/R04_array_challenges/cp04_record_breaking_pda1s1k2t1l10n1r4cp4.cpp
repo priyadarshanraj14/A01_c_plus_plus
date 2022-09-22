@@ -1,6 +1,7 @@
 //(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
 /*
-(Q4):- (record breaking day) isyana is given the number of visitors at her local
+(CP4)Question:- (record breaking day)
+isyana is given the number of visitors at her local
 theme park on N consecutive days.the number of visitors on i-th day is Vi.
 a day is record breaking if it satisfy both the following conditions.
 (1) the number of visitors on the day is strictly larger than the number of
