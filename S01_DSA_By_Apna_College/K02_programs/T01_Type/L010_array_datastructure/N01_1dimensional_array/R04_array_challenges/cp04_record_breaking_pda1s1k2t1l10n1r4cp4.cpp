@@ -26,7 +26,7 @@ memory limit 1 GB.
 test set 1
 1<=N<=1000
 Test set 2
-1<=N<=2*10^5 for at most 10 test cases.
+1<=N<=2*10^4 for at most 10 test cases.
 for the remaining cases 1<=N<=1000
 */
 

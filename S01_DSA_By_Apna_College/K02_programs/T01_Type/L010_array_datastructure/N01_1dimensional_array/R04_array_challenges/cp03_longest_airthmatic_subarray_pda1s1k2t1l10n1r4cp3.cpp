@@ -20,11 +20,11 @@ Constraint :-
 time limit :- 20 second per test set.
 memory limit 1 GB.
    1<=T<=100
-   0<=Ai<=10^9
+   0<=Ai<=10^8
 test set 1
 2<=N<=2000
 Test set 2
-2<=N<=2*10^5 for at most 10 test cases.
+2<=N<=2*10^4 for at most 10 test cases.
 for the remaining cases 2<=N<=2000
 */
 

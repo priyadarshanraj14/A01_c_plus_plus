@@ -2,10 +2,10 @@
 /*
 (CP6) question :- (subarray with given sum) Given an unsorted array A of size
 N of non-negative integers, find a continuous subarray which adds to a given
-number s.
+number s. (question asked in amazon, facebook, google, visa)
 
 constraints:-
-1<= N <=10^5 ,  0<=Ai<=10^10 , s>0
+1<= N <=10^5 ,  0<=Ai<=10^8 , s>0
 
 example :-
 input
@@ -20,15 +20,15 @@ using namespace std;
 int main()
 {
     int n, s;
-    cout << "enter the size of array=";
+    cout << "enter the size of array.\nN=";
     cin >> n;
-    cout << "enter your number in array (only non negative integer)\n";
+    cout << "enter your all "<< n <<" number in array 'Ai'(only non negative integer)\n";
     int arr[n];
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
-    cout << "enter the sum of any subarray(only natural number)=";
+    cout << "enter the sum of any subarray(only natural number)\nS=";
     cin >> s;
     int i = 0, j = 0, sum = 0;
     while (j < n && sum + arr[j] <= s)
@@ -63,3 +63,5 @@ int main()
          << endl;
     return 0;
 }
+
+// time complexity = O(N)

@@ -1,6 +1,6 @@
 //(L10)array data structure // (N1) 1_dimensional_array // (R3) sorting in array
 //(Q1):- arrange the element of array in ascending order ?
-//(method 1) :-seletion sort
+//code :- (method 1) seletion sort
 #include<iostream>
 using namespace std;
 int main()
