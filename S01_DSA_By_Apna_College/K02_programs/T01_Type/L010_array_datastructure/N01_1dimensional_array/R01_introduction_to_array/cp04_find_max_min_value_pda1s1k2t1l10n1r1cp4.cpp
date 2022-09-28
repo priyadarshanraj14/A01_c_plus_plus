@@ -1,5 +1,6 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R1) introduction
-//(Q4):- find maximum and minimum value in an array?
+//(L10)array (data structure) // (N1) 1_dimensional_array // (R1) introduction
+//(CP4) Question :- find maximum and minimum value in an array?
+// code :-
 #include<iostream>
 #include<climits> // this header file used fot INT_MIN and INT_MAX,also for max and min function.
 using namespace std;

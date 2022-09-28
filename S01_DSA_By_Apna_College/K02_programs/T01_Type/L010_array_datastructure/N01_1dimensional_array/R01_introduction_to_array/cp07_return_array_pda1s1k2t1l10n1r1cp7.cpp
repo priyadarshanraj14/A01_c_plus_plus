@@ -1,6 +1,7 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R1) introduction
-//(Q7) testing:- no need to return the value of sorted array to our main function.
-
+//(L10)array (data structure) // (N1) 1_dimensional_array // (R1) introduction
+//(CP7) Question :-
+// testing:- no need to return the value of sorted array to our main function.
+// code :-
 #include<iostream>
 using namespace std;
 void arrange (int arr[], int n,int k);

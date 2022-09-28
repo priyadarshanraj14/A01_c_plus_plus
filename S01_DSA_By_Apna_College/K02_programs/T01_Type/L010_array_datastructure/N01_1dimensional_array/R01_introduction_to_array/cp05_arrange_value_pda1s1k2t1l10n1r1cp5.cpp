@@ -1,5 +1,6 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R1) introduction
-//(Q5):- arrange the element of array in ascending order ?
+//(L10)array (data structure) // (N1) 1_dimensional_array // (R1) introduction
+//(CP5) Question :- arrange the element of array in ascending order ?
+// code :-
 #include<iostream>
 using namespace std;
 void ascending_order (int arr[],int n);
