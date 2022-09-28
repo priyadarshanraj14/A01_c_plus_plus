@@ -1,5 +1,6 @@
-//(L10)array data structure / (N1) 1_dimensional_array / (R5) subarray
-//challanges /(Q1):- print all possible subarray ?
+//(L10)array (data structure) // (N1) 1_dimensional_array // (R5) subarray challanges
+//(CP1) Question :- print all possible subarray ?
+// code :-
 #include<iostream>
 using namespace std;
 int main()

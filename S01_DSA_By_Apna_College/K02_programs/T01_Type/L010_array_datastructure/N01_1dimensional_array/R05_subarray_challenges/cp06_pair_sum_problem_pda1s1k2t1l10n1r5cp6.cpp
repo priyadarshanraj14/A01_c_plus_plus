@@ -1,8 +1,7 @@
-//(L10)array data structure / (N1) 1_dimensional_array / (R5) subarray challanges
-//(Q6):- (pair sum problem). check if there exist two element in an array such that 
+//(L10)array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
+//(CP6) Question :- (pair sum problem). check if there exist two element in an array such that 
 //their sum is equal to given k ?
-//(method 1) brute force apporch
-
+// code :- (method 1) brute force apporch
 #include<iostream>
 using namespace std;
 bool pairsum (int arr[], int n, int k);

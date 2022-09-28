@@ -1,6 +1,6 @@
-//(L10)array data structure / (N1) 1_dimensional_array / (R5) subarray
-//challanges /(Q3):- find the subarray in an array which has maximum sum ?
-//(method 2) optimized approach :- cumulative sum approach
+//(L10)array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
+//(CP3) Question :- find the subarray in an array which has maximum sum ?
+// code :- (method 2) optimized approach :- cumulative sum approach
 #include<iostream>
 #include<climits>
 using namespace std ;

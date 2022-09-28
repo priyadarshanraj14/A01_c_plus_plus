@@ -1,7 +1,7 @@
-//(L10)array data structure / (N1) 1_dimensional_array / (R5) subarray challanges
-//(Q7):- (pair sum problem). check if there exist two element in an array such that 
+//(L10)array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
+//(CP7) Question :- (pair sum problem). check if there exist two element in an array such that 
 //their sum is equal to given k ?
-//(method 3) optimise approach :- 
+// code :- (method 3) optimise approach 
 
 #include<iostream>
 using namespace std;

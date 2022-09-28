@@ -1,7 +1,7 @@
-//(L10)array data structure / (N1) 1_dimensional_array / (R5) subarray
-//challanges /(Q5):- (maximum circular subarray sum).find the circular or noncircular
+//(L10)array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
+//(CP5) Question :- (maximum circular subarray sum).find the circular or noncircular
 // subarray in an array which has maximum sum ?
-
+// code :-
 #include<iostream>
 #include<climits>
 using namespace std ;
