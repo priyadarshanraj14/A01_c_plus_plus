@@ -1,6 +1,6 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R3) sorting in array
-//(Q4):- arrange the element of array in descending order ?
-//(method 2) :- bubble sort
+//(L10)array (data structure) // (N1) 1_dimensional_array // (R3) sorting in array
+//(CP4) Question :- arrange the element of array in descending order ?
+// code :- (method 2) bubble sort
 #include<iostream>
 using namespace std;
 int main()

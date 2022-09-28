@@ -1,6 +1,6 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R3) sorting in array
-//(Q1):- arrange the element of array in ascending order ?
-//code :- (method 1) seletion sort
+//(L10)array (data structure) // (N1) 1_dimensional_array // (R3) sorting in array
+//(CP2) Question :- arrange the element of array in descending order ?
+// code :- (method 1) seletion sort
 #include<iostream>
 using namespace std;
 int main()
@@ -18,7 +18,7 @@ int main()
     {
         for(int j=i+1;j<n;j++)
         {
-            if(a[i]>a[j])
+            if(a[i]<a[j])
             {
                 int temp=a[i];
                 a[i]=a[j];
@@ -32,7 +32,3 @@ int main()
     }
     return 0;
 }
-//time complexity= o(n^2) this is worst case time complexity
-//O:- worst case time complexity
-//big omega sign :- best case time complexity.
-// big theta sign :- average case time complexity.

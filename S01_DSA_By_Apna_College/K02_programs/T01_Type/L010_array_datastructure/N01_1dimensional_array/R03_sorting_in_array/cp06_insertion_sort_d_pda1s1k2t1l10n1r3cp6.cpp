@@ -1,6 +1,6 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R3) sorting in array
-//(Q5):- arrange the element of array in ascending order ?
-//(method 3):- insertion sort
+//(L10)array (data structure) // (N1) 1_dimensional_array // (R3) sorting in array
+//(CP6) Question :- arrange the element of array in descending order ?
+// code :-  (method 3) insertion sort
 #include<iostream>
 using namespace std;
 int main()
@@ -18,7 +18,7 @@ int main()
     {
         int current = a[i];
         int j=i-1;
-        while(a[j]>current && j>=0)
+        while(a[j]<current && j>=0)
         {
             a[j+1]=a[j];
             j--;
