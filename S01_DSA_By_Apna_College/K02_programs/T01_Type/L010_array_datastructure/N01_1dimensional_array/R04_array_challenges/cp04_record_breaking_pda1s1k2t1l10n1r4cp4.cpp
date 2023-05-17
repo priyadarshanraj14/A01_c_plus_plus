@@ -32,7 +32,7 @@ for the remaining cases 1<=N<=1000
 
 /*
 solution :- we have to write a code which have worst case time complexity O(N),
-because N^2 > 20*10^8 i.e  2*10^5 > 2*10^9
+because N^2 > 20*10^8 i.e  (2*10^5)^2 > 2*10^9
 */
 // code:-
 #include <iostream>
