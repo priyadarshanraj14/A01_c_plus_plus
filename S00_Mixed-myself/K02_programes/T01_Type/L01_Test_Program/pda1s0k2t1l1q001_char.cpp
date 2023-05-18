@@ -22,4 +22,4 @@ int main()
 }
 //ascii value :- 'a'=97,'b'=98,'c'=99,'d'=100.... in decimal
 //ascii value :- 'A'=65,'B'=66,'C'=67,'D'=68.... in decimal
-//ascii value :- '0'=48,'1'=49,'2'=50,....'9'=57
+//ascii value :- '0'=48,'1'=49,'2'=50,....'9'=57.
