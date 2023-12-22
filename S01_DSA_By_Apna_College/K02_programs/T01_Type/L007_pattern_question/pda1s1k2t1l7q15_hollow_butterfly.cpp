@@ -7,7 +7,7 @@ int main()
 {
     int n;
     char a;
-    cout<<"enter the size of diamond n=";
+    cout<<"enter the size of butterfly n=";
     cin>>n;
     cout<<"enter any character=";
     cin>>a;
