@@ -1,6 +1,8 @@
-//(L10)array (data structure) // (N1) 1_dimensional_array // (R1) introduction
-//(CP5) Question :- arrange the element of array in ascending order ?
+// (L10) array (data structure) // (N1) 1_dimensional_array // (R1) introduction
+// (CP5) Question :- arrange the element of array in ascending order ?
+
 // code :-
+
 #include<iostream>
 using namespace std;
 void ascending_order (int arr[],int n);
@@ -11,7 +13,7 @@ int main ()
     cout<<"how many number you will give=";
     cin>>n;
     int arr[n];
-    cout<<"enter your numbers\n";
+    cout<<"enter your numbers (integers)\n";
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];

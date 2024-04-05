@@ -1,15 +1,18 @@
-//(L10)array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
-//(CP2) Question :- find the subarray in an array which has maximum sum ?
-// code :- (method 1) brute force approach 
+// (L10) array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
+// (CP2) Question :- find the subarray in an array which has maximum sum ?
+// (method 1) :- brute force approach
+
+// code :-
+
 #include<iostream>
 #include<climits>
 using namespace std ;
 int main()
 {
     int n;
-    cout<<"how many number you will give=";
+    cout<<"how many number you will give (size of array)=";
     cin>>n;
-    cout<<"enter your number here\n";
+    cout<<"enter your number here (integers) \n";
     int arr[n];
     for(int i=0;i<n;i++)
     {

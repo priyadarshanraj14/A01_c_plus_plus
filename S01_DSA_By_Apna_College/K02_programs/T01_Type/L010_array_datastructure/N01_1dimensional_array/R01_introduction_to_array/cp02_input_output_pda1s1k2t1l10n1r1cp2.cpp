@@ -1,6 +1,8 @@
-//(L10)array (data structure) // (N1) 1_dimensional_array // (R1) introduction
-//(CP2) Question :- declaration and initialisation of array.
+// (L10) array (data structure) // (N1) 1_dimensional_array // (R1) introduction
+// (CP2) Question :- declaration and initialisation of array.
+
 // code :-
+
 #include<iostream>
 using namespace std;
 int main()

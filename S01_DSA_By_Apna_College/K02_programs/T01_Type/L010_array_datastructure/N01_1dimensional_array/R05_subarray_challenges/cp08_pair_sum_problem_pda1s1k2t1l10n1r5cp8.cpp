@@ -1,7 +1,9 @@
-//(L10)array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
-//(CP7) Question :- (pair sum problem). check if there exist two element in an array such that 
-//their sum is equal to given k ?
-// code :- (method 3) optimise approach 
+// (L10) array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
+// (CP7) Question :- (pair sum problem). check if there exist two element in an array such that 
+//                   their sum is equal to given k ?
+// (method 3) optimise approach :-
+
+// code :-
 
 #include<iostream>
 using namespace std;
@@ -10,8 +12,9 @@ void pairsum (int arr[], int n, int k);
 int main()
 {
     int n;
-    cout<<"how many number you will give=";
+    cout<<"how many number you will give (size of array)=";
     cin>>n;
+    cout<<"enter your number below (integers)\n";
     int arr[n];
     for(int i=0;i<n;i++)
     {

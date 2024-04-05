@@ -1,7 +1,9 @@
-//(L10)array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
-//(CP5) Question :- (maximum circular subarray sum).find the circular or noncircular
-// subarray in an array which has maximum sum ?
+// (L10) array (data structure) / (N1) 1_dimensional_array / (R5) subarray challanges
+// (CP5) Question :- (maximum circular subarray sum).find the circular or noncircular
+//                   subarray in an array which has maximum sum ?
+
 // code :-
+
 #include<iostream>
 #include<climits>
 using namespace std ;
@@ -10,9 +12,9 @@ int kadanes (int arr[], int n);
 int main()
 {
     int n;
-    cout<<"how many number you will give=";
+    cout<<"how many number you will give (size of array)=";
     cin>>n;
-    cout<<"enter your number here\n";
+    cout<<"enter your number here (integers) \n";
     int arr[n];
     for(int i=0;i<n;i++)
     {

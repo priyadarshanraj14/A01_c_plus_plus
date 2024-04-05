@@ -1,6 +1,9 @@
-//(L10)array (data structure) // (N1) 1_dimensional_array // (R3) sorting in array
-//(CP2) Question :- arrange the element of array in descending order ?
-// code :- (method 1) seletion sort
+// (L10) array (data structure) // (N1) 1_dimensional_array // (R3) sorting in array
+// (CP2) Question :- arrange the element of array in descending order ?
+// (method 1) :- seletion sort
+
+// code :-
+
 #include<iostream>
 using namespace std;
 int main()
@@ -8,7 +11,7 @@ int main()
     int n;
     cout<<"how many number you will give=";
     cin>>n;
-    cout<<"enter your numbers\n";
+    cout<<"enter your numbers (integer)\n";
     int a[n];
     for(int i=0;i<n;i++)
     {

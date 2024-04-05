@@ -1,4 +1,4 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
+// (L10) array data structure // (N1) 1_dimensional_array // (R4) array challenges
 /*
 (CP6) question :- (subarray with given sum) Given an unsorted array A of size
 N of non-negative integers, find a continuous subarray which adds to a given
@@ -14,7 +14,9 @@ output -
 2 4
 explanation :- the sum of element from 2nd position to 4th position is 12.
 */
+
 // code :-
+
 #include <iostream>
 using namespace std;
 int main()

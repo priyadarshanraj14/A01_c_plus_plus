@@ -1,6 +1,9 @@
-//(L10)array (data structure) // (N1) 1_dimensional_array // (R3) sorting in array
-//(CP3) Question :- arrange the element of array in ascending order ?
-// code :- (method 2) bubble sort
+// (L10)array (data structure) // (N1) 1_dimensional_array // (R3) sorting in array
+// (CP3) Question :- arrange the element of array in ascending order ?
+// (method 2) :- bubble sort
+
+// code :-
+
 #include<iostream>
 using namespace std;
 int main()
@@ -8,7 +11,7 @@ int main()
     int n;
     cout<<"how many number you will give=";
     cin>>n;
-    cout<<"enter your numbers here=";
+    cout<<"enter your numbers here (integer)=";
     int a[n];
     for(int i=0;i<n;i++)
     {

@@ -1,7 +1,9 @@
-//(L10)array (data structure) // (N1) 1_dimensional_array // (R2) searching in array
-//(CP2) Question :- return the index value of key if found in array else _1 ?
+// (L10) array (data structure) // (N1) 1_dimensional_array // (R2) searching in array
+// (CP2) Question :- return the index value of key if found in array else _1 ?
 // Binary search :-
+
 // code :-
+
 #include<iostream>
 using namespace std;
 int binary_search (int hi[],int n, int key);
@@ -11,7 +13,7 @@ int main()
     int n;
     cout<<"how many number you will give=";
     cin>>n;
-    cout<<"must enter the value in ascending order\n";
+    cout<<"must enter the value in ascending order (integer)\n";
     int arr[n];
     for(int i=0;i<n;i++)
     {

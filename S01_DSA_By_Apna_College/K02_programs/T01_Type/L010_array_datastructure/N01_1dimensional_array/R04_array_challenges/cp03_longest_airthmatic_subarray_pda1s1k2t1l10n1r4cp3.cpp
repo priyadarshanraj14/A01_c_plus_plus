@@ -1,4 +1,4 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
+// (L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
 /*
 (CP3)Question:-(longest aithmatic subarray) 
 saraswati has an array of n non-negative integers.  
@@ -36,7 +36,9 @@ for N = 2000 we have 2000^2 operation i.e 4*10^6 which is less than 2*10^9, than
 our code will run under 20 second i.e (2*10^9 operation)
 1GB= 1024 MB, 1MB=1024KB, 1KB=1024 Byte , (1 byte = 8 bit)
 */
+
 //code :-
+
 #include<iostream>
 using namespace std;
 int main()
@@ -44,7 +46,7 @@ int main()
     int n;
     cout<<"how many number you will give=";
     cin>>n;
-    cout<<"enter your number here (only non-negative integer)\n";
+    cout<<"enter your number here (integer)\n";
     int a[n];
     for(int i=0; i<n; i++)
     {

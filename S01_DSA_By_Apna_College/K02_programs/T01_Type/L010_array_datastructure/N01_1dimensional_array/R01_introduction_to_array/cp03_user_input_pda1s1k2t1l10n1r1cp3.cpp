@@ -1,6 +1,8 @@
-//(L10)array (data structure) // (N1) 1_dimensional_array // (R1) introduction
-//(CP3) Question :- taking input by user in an array.
+// (L10) array (data structure) // (N1) 1_dimensional_array // (R1) introduction
+// (CP3) Question :- taking input by user in an array.
+
 // code :-
+
 #include<iostream>
 using namespace std;
 int main ()

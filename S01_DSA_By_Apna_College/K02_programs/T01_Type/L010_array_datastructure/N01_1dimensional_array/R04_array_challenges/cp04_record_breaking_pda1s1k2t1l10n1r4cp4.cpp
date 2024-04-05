@@ -1,6 +1,6 @@
-//(L10)array data structure // (N1) 1_dimensional_array // (R4) array challenges
+// (L10) array data structure // (N1) 1_dimensional_array // (R4) array challenges
 /*
-(CP4)Question:- (record breaking day)
+(CP4) Question:- (record breaking day)
 isyana is given the number of visitors at her local
 theme park on N consecutive days.the number of visitors on i-th day is Vi.
 a day is record breaking if it satisfy both the following conditions.
@@ -34,7 +34,9 @@ for the remaining cases 1<=N<=1000
 solution :- we have to write a code which have worst case time complexity O(N),
 because N^2 > 20*10^8 i.e  (2*10^5)^2 > 2*10^9
 */
-// code:-
+
+// code:- 
+
 #include <iostream>
 using namespace std;
 int main()
